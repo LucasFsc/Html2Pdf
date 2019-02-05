@@ -4,10 +4,12 @@ Android library to convert Html from strings into Pdf files.
 ## Download
 
 ```gradle
-repositories {
-  ...
-  maven { url 'https://jitpack.io' }
-}
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
 
 implementation 'com.github.LucasFsc:TitleNavigation:0.1-alpha'
 
