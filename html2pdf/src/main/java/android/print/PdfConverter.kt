@@ -68,9 +68,8 @@ internal class PdfConverter private constructor() : Runnable {
                 }
             }
         }
-        val settings = mWebView!!.settings
-        settings.defaultTextEncodingName = "utf-8"
-        mWebView!!.loadData(mHtmlString, "text/HTML; charset=utf-8", null)
+
+        mWebView!!.loadDataWithBaseURL("", mHtmlString, "text/html", "UTF-8", null)
     }
 
     @Throws(Exception::class)
