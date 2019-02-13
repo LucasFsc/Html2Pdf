@@ -10,7 +10,7 @@ allprojects {
     }
 }
 
-implementation 'com.github.LucasFsc:Html2Pdf:0.1-beta'
+implementation 'com.github.LucasFsc:Html2Pdf:0.2-beta'
 
 ```
 
