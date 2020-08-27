@@ -1,7 +1,7 @@
 # Html2Pdf
 Android library to convert Html from strings into Pdf files.
 
-# This library is not mainteined anymore
+# This library is not maintained anymore
 Feel free to fork and use it.
 
 ## Download
