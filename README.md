@@ -9,11 +9,11 @@ Feel free to fork and use it.
 ```gradle
 allprojects {
     repositories {
-        maven { url 'https://jitpack.io' }
+        maven { url "https://www.jitpack.io" }
     }
 }
 
-implementation 'com.github.LucasFsc:Html2Pdf:0.2-beta'
+implementation 'com.github.spider-abb:Html2Pdf:311592'
 
 ```
 
