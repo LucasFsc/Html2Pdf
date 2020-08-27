@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Html2Pdf.iml" filepath="$PROJECT_DIR$/Html2Pdf.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/html2pdf/html2pdf.iml" filepath="$PROJECT_DIR$/html2pdf/html2pdf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Html2Pdf.iml" filepath="$PROJECT_DIR$/.idea/modules/Html2Pdf.iml" group="Html2Pdf" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/html2pdf/html2pdf.iml" filepath="$PROJECT_DIR$/.idea/modules/html2pdf/html2pdf.iml" group="Html2Pdf/html2pdf" />
     </modules>
   </component>
 </project>
