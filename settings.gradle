@@ -1,1 +1,1 @@
-include ':app', ':html2pdf'
+include ':html2pdf'
