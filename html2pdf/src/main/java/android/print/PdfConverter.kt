@@ -46,7 +46,7 @@ internal class PdfConverter private constructor() : Runnable {
                 if (Build.VERSION.SDK_INT < Build.VERSION_CODES.KITKAT)
                     throw RuntimeException("call requires API level 19")
                 else {
-                    val documentAdapter = mWebView!!.createPrintDocumentAdapter()
+                    val documentAdapter = mWebView!!.createPrintDocumentAdapter("PDF Export")
                     documentAdapter.onLayout(null, pdfPrintAttrs, null, object : PrintDocumentAdapter.LayoutResultCallback() {
                         override fun onLayoutFinished(info: PrintDocumentInfo?, changed: Boolean) {
                             super.onLayoutFinished(info, changed)
