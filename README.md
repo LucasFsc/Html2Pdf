@@ -13,7 +13,7 @@ allprojects {
     }
 }
 
-implementation 'com.github.spider-abb:Html2Pdf:311592'
+implementation 'com.github.spider-abb:Html2Pdf:1.0'
 
 ```
 
